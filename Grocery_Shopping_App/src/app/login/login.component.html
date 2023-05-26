@@ -1,0 +1,19 @@
+<div class="bg-img">
+  ,<br><br><br>
+  <div class="size">
+    <form #loginform="ngForm" (ngSubmit)="login()">
+      <div class="container">
+        <h1>Sign In</h1>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" id="useremail" name="useremail" [(ngModel)]="user.email">
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password"id="password" name="password" [(ngModel)]="user.password">
+       
+        <div class="clearfix">
+          <button class="btn-btn-info">Login</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

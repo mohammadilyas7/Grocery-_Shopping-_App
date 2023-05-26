@@ -1,0 +1,63 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+
+ .bg-img{
+  margin-top: 0%;margin-bottom: 0%;margin-left: 0%;margin-right: 0%;
+  height: 630px;width: 150ch;
+  background-image: url("https://wallpapercave.com/wp/wp3533659.jpg");
+  min-height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+ text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.size{ 
+  width: 20%;
+  margin-left:  100px;
+  height: 50%;
+  /* border: 1px solid black;  */
+  /* background-color: rgb(245, 178, 245); */
+  background-color: rgba(207, 109, 16, 0.589);
+ }
+ .container {
+  padding: 16px;
+}
